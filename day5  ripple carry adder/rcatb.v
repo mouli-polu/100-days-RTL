@@ -4,7 +4,7 @@ module testbench;
     reg Cin;
     wire [3:0] Sum;
     wire Cout;
-  int i=0;
+  integer i=0;
 
     ripple_carry_adder #(4) rca (
         .A(A), 
