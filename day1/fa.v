@@ -4,7 +4,7 @@ module full_adder(
   input b,
   input cin,
   output sum,
-  output cout
+  output cout 
 );
   wire w1,w2,w3;
   assign w1 =a^b;
